@@ -1,0 +1,39 @@
+{
+  "sources": {
+    "GameAnalytics": "https://github.com/GameAnalytics/GA-SDK-JAVASCRIPT/tree/v5.0.0",
+    "vk-bridge": "https://www.npmjs.com/package/@vkontakte/vk-bridge/v/2.15.9",
+    "lz-string": "https://github.com/pieroxy/lz-string/tree/1.5.0"
+  },
+  "files": [
+    {
+      "file": "GameAnalytics-5.0.0.min.js",
+      "bytes": 92496,
+      "sha256": "2b3ef7c0d3791b72b83246d91243bbe909c61e909282b122373efc9503919bd7"
+    },
+    {
+      "file": "GameAnalytics-LICENSE.txt",
+      "bytes": 1071,
+      "sha256": "3e69fe57702626e6b9d0dbfef0999dea52bf6c30a28315af6b31a7545848d125"
+    },
+    {
+      "file": "lz-string-LICENSE.txt",
+      "bytes": 1064,
+      "sha256": "433fc9dfe659dbfb1e91eed8351f13651e97bfa3ac6d03394c3d63f61d4bbc80"
+    },
+    {
+      "file": "lz-string.min.js",
+      "bytes": 4814,
+      "sha256": "95f4d1cbf099f57161b664bc048426ec3df92637801a4c79116e83315aa787e7"
+    },
+    {
+      "file": "vk-bridge-2.15.9.min.js",
+      "bytes": 8037,
+      "sha256": "a14b25e60d26a19accd3118d830785d42652f65561f07a9fde16c374d06d1dab"
+    },
+    {
+      "file": "vk-bridge-LICENSE.txt",
+      "bytes": 1086,
+      "sha256": "15752ef20d62ef8f9b56deb04f8afbcb05d63823215ef2a2325da0890c940ab9"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Cocos Creator | BreakingWall</title>
+  <title>Breaking Wall: Prison Escape</title>
 
   <!--http://www.html5rocks.com/en/mobile/mobifying/-->
   <meta name="viewport"
@@ -23,9 +23,6 @@
   <meta name="msapplication-tap-highlight" content="no">
 
   <!-- force full screen on some browser -->
-  <meta name="full-screen" content="yes"/>
-  <meta name="x5-fullscreen" content="true"/>
-  <meta name="360-fullscreen" content="true"/>
 
   <!--fix fireball/issues/3568 -->
   <!--<meta name="browsermode" content="application">-->
@@ -36,6 +33,8 @@
 
   <link rel="stylesheet" type="text/css" href="style.css"/>
 
+  <script src="platform-config.js"></script>
+  <script src="platform-runtime.js"></script>
 </head>
 <body>
   <div id="GameDiv" cc_exact_fit_screen="true">
@@ -57,7 +56,7 @@
 <script src="src/import-map.json" type="systemjs-importmap" charset="utf-8"> </script>
 
 <script>
-    System.import('./index.js').catch(function(err) { console.error(err); })
+    (window.__BW_PLATFORM_READY || Promise.resolve()).then(function(){return System.import('./index.js');}).catch(function(err) { console.error(err); })
 </script>
 
 </body>
